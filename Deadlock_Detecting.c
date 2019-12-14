@@ -7,7 +7,7 @@ int main()
 	printf("Enter the number of resources: \n");
 	scanf("%d", &m);
 
-	int alloc[100][100], request[100][100], avail[100], work[100], finish[n];
+	int alloc[100][100], request[100][100], avail[100], finish[100];
 
 	printf("Enter the allocation matrix\n");
 	for(i=0;i<n;i++)
@@ -35,12 +35,6 @@ int main()
 	{
 		finish[i]=0;
 	}
-	//for(i=0;i<m;i++)
-	//{
-	//	work[i]=avail[i];
-	//} 
-	//for(j=0;j<n;j++)
-	//{
 	for(j=0;j<n;j++)
 	{
 		for(i=0;i<n;i++)
