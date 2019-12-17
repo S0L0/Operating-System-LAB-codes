@@ -30,7 +30,7 @@ void main()
 		{
 			frames[k]=pages[i];
 			miss++;
-			k=(k+1)%3;
+			k=(k+1)%f;
 		}
 	  	for(j=0;j<f;j++)
 		{
